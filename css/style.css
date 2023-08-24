@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap');body{
+  font-size: 62.5%;
+  /* font-family: 'Handjet', cursive; */
+  font-family: 'Press Start 2P', cursive;
+
+}
+.home {
+  background-image: url(../images/Open\ source-bro.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-position:center -300px ;
+}
+.home-layer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* .about .container .row .col-sm-6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.about .container {
+  display: flex;
+  align-items: center;
+  width: 1040px;
+  max-width: 100%;
+}
+.about-info-conatiner{
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+
+}
+.about-info-conatiner .about-img{
+  margin-right: 1rem;
+}
+.about-conatiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 400px;
+
+}
+.about-font{
+  font-size: 14px;
+}
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis:calc(100% - 400px);
+}
+.about-me p{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.about-me .text-muted ,.services .card-text{
+  font-size: 15px;
+}
+.home-conent h1,.home-conent h4{
+font-family: 'Advent Pro', sans-serif;
+}
+.navbar {
+  background-color: #212529 !important;
+  z-index: 99999999999;
+font-family: 'Advent Pro', sans-serif;
+}
+.navbar-brand{
+font-family: 'Advent Pro', sans-serif;
+  font-size: 2rem;
+}
+.nav-link{
+  /* font-size: 1rem; */
+  font-size: 1.2rem;
+
+}
+.fab {
+  transition: all 0.5s;
+  font-size: 1.4rem;
+
+}
+.fa-twitter:hover {
+  color: #00aacc !important;
+}
+.fa-facebook:hover {
+  color: #1778f2 !important;
+}
+.fa-github:hover {
+  color: #e53232 !important;
+}
+.fa-linkedin:hover {
+  color: #0e76a8 !important;
+}
+.border-tit {
+  height: 0.4rem;
+  width: 9rem;
+  background-color: #0078ff;
+  display: inline-block;
+}
+.about img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.info-dev{
+margin-left: 0;
+}
+.tit {
+  font-size: 3.5rem;
+  text-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.3);
+}
+.letter {
+  font-size: 5rem;
+  color: rgba(136, 136, 136, 0.2);
+}
+.font-brdr {
+  border: 10px solid #0099cc;
+}
+.font-brdr:hover {
+  border-color: rgba(0, 153, 204, 0.5);
+}
+.font-brdr:hover .fas,
+.font-brdr:hover .far {
+  color: white;
+  background-color: #0099cc;
+}
+.numbers {
+  width: 100%;
+  background-image: url(../images/counters-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.layer,
+.car-bg-layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 120, 255, 0.6);
+}
+.numbers .fas {
+  color: white;
+  border-color: rgba(256, 256, 256, 0.7);
+}
+.card-img-top {
+  transition: all 0.5s;
+}
+.card-layer {
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+.card-layer:hover {
+  filter: grayscale(0);
+}
+.card-layer:hover .card-img-top {
+  transform: scale(1.2) rotate(2deg);
+}
+.cir-btn {
+  text-indent: 0 !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+}
+.car-bg {
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.carousel-caption {
+  position: static;
+}
+.carousel-item img,
+svg {
+  vertical-align: middle;
+  margin: auto;
+  padding: 8rem;
+}
+.carousel-indicators button {
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50% !important;
+  text-indent: 0 !important;
+}
+a.color-blue {
+  transition: all 0.3s;
+}
+a.color-blue:hover {
+  color: #0078ff !important;
+}
+
+.img-sm-card {
+  width: 3rem;
+  height: 3rem;
+}
+.contact {
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+}
+.brdr {
+  width: 10rem;
+  border-bottom: 0.5rem solid #0078ff;
+}
+.carousel-indicators {
+  bottom: -1.5rem;
+}
+footer p{
+  margin: 0;
+}
+.contact{
+  text-align: center;
+margin: auto;
+font-size: 15px;
+}
+.contact .border-tit{
+transform: translateX(calc(50% - 4.5rem));
+margin: 0;
+padding: 0;
+}
+.my-project-card-text{
+  font-size: 15px;
+}
+.contact-text{
+  font-size: 20px;
+}
+.typewriter h3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+font-family: 'Advent Pro', sans-serif;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+@media screen and (max-width: 992px) {
+  /* body {
+    font-size: 85%;
+  } */
+
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact h3 {
+    font-size: 2.2rem;
+  }
+  .about-me{
+    text-align: center;
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+
+  /* body {
+    font-size: 75%;
+  } */
+  .about .container {
+    padding: 2.4rem;
+  }
+  .tit {
+    font-size: 4rem;
+    text-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.3);
+  }
+  .letter {
+    font-size: 6.4rem;
+    color: rgba(136, 136, 136, 0.2);
+  }
+  .contact h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about li {
+    padding-left: 0.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-sec {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .about img {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .img-mar {
+    margin-bottom: 0.8rem;
+  }
+  .about,
+  header,
+  .services,
+  .My-projects,
+  .portfolio,
+  footer {
+    overflow: hidden;
+  }
+  .con-100 {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
