@@ -98,13 +98,7 @@ font-family: 'Advent Pro', sans-serif;
   width: 9rem;
   background-color: #0078ff;
   display: inline-block;
-}
-.about img {
-  width: 7.5rem;
-  height: 7.5rem;
-}
-.info-dev{
-margin-left: 0;
+  margin-top: -100px;
 }
 .tit {
   font-size: 3.5rem;
@@ -113,6 +107,14 @@ margin-left: 0;
 .letter {
   font-size: 5rem;
   color: rgba(136, 136, 136, 0.2);
+  margin-bottom: -50px;
+}
+.about img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.info-dev{
+margin-left: 0;
 }
 .font-brdr {
   border: 10px solid #0099cc;
@@ -333,6 +335,6 @@ font-family: 'Advent Pro', sans-serif;
   .tit {
     font-size: 2.5rem;
     text-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.3);
-    top: 35% !important;
+    /* top: 35% !important; */
   }
 }
