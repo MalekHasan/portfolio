@@ -108,6 +108,7 @@ font-family: 'Advent Pro', sans-serif;
   font-size: 5rem;
   color: rgba(136, 136, 136, 0.2);
   margin-bottom: -50px;
+  /* margin-bottom: 0; */
 }
 .about img {
   width: 7.5rem;
