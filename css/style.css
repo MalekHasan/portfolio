@@ -233,6 +233,11 @@ font-family: 'Advent Pro', sans-serif;
     typing 4s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+.skill-logo{
+  max-width: 100px;
+  width: 75px;
+  margin-right: 15px;
+}
 
 /* The typing effect */
 @keyframes typing {
@@ -290,6 +295,14 @@ font-family: 'Advent Pro', sans-serif;
   }
 }
 @media screen and (max-width: 576px) {
+  .about .container {
+
+    padding: 0 !important;
+  }
+  .about-me p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .col-sec {
     flex-direction: column;
     flex-wrap: wrap;
@@ -316,5 +329,10 @@ font-family: 'Advent Pro', sans-serif;
   .con-100 {
     width: 100% !important;
     margin: auto !important;
+  }
+  .tit {
+    font-size: 2.5rem;
+    text-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.3);
+    top: 35% !important;
   }
 }
